@@ -1,12 +1,16 @@
-const getRandomIntInRange = (min, max) => {
+/*const getRandomIntInRange = (min, max) => {
   if (min > max) throw new Error('min must be less than max');
   return Math.floor(Math.random() * max);
+  
 };
-
-/*const getRandomIntInRange = (min, max) => {
+*/
+const getRandomIntInRange = (min, max) => {
   if (min > max) throw new Error('min must be less than max');
   return Math.floor(Math.random() * (max - min) + min);
 };
+/*
+};
+//inclusive = starting   exclusive = end point , excluding the number 
 */
 
 const coolnessGauge = (numOfFridges) => {
