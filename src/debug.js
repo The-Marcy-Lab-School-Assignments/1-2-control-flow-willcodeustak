@@ -3,6 +3,12 @@ const getRandomIntInRange = (min, max) => {
   return Math.floor(Math.random() * max);
 };
 
+/*const getRandomIntInRange = (min, max) => {
+  if (min > max) throw new Error('min must be less than max');
+  return Math.floor(Math.random() * (max - min) + min);
+};
+*/
+
 const coolnessGauge = (numOfFridges) => {
   return numOfFridges > 5 ? 'You need more fridges.' : 'You are downright chilly!';
 };
