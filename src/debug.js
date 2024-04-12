@@ -1,3 +1,4 @@
+/** FEEDBACK: Great job getting the test cases to pass, love the notes you wrote to yourself as documentation! In the future just make sure you remove any commented out code! */
 /*const getRandomIntInRange = (min, max) => {
   if (min > max) throw new Error('min must be less than max');
   return Math.floor(Math.random() * max);
