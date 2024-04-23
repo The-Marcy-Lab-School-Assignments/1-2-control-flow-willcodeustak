@@ -5,3 +5,18 @@ const config = {
 };
 
 module.exports = config;
+
+
+
+const measureRain = (inches) => {
+
+
+
+
+
+
+}
+
+
+
+//move past question 3
